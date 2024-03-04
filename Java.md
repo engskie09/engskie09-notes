@@ -1,7 +1,7 @@
 # Java #
 
 ## SWITCHING JAVA VERSION (WINDOWS) ##
-install [scoop](https://scoop.sh), see guide for [windows installation](https://www.cyberithub.com/how-to-install-scoop-on-windows-10-using-few-easy-steps/)
+install [scoop](https://scoop.sh), see guide for [Windows installation](https://www.cyberithub.com/how-to-install-scoop-on-windows-10-using-few-easy-steps/)
 
 ```
 scoop bucket add java
