@@ -39,6 +39,7 @@ git pull
 git reset --hard origin/webhook_branch
 npm install -f
 npm run build
+pkill -9 node
 /pm2-directory restart all
 ```
 
