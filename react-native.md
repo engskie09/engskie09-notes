@@ -1,5 +1,4 @@
-# JavaScript #
-## React Native ##
+# React Native #
 
 Building APK see guide for [Generating Keystore](https://reactnative.dev/docs/signed-apk-android)
 ```
