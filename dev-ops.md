@@ -43,6 +43,11 @@ pkill -9 node
 /pm2-directory restart all
 ```
 
+run this command to see the directory of pm2
+```
+which pm2
+```
+
 set permission
 ```
 sudo chmod +x /home/webhook/redeploy.sh
