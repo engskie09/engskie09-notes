@@ -35,7 +35,7 @@ git version
 ````
 
 ## Nginx ##
- Git on Ubuntu. See guide [Git Installation](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source)
+ Git on Ubuntu. See guide [Nginx Installation](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source)
 ```
 sudo apt-get update
 ```
