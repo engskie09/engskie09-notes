@@ -23,7 +23,7 @@ nvm use <version>
 ```
 
 ## Git ##
-Install Git on Ubuntu. See guide [Git Installation](httpshttps://github.com/git-guides/install-git#install-git-on-linux)
+Install Git on Ubuntu. See guide [Git Installation](https://github.com/git-guides/install-git#install-git-on-linux)
 ```
 sudo apt-get update
 ```
@@ -33,3 +33,15 @@ sudo apt-get install git-all
 ```
 git version
 ````
+
+## Nginx ##
+ Git on Ubuntu. See guide [Git Installation](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source)
+```
+sudo apt-get update
+```
+```
+sudo apt-get install nginx
+```
+```
+sudo nginx -v
+```
