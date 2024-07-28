@@ -7,8 +7,8 @@
 | ```mv``` | mv oldName.sh newName.sh | rename a file
 | ```netstat -tulpn``` | | display port with process/app
 | ```ps -ef &#124; grep nohup``` | | display nohup processes
-| ```kill -9 [pid]``` | kill -9 10000 | force kill process by id
-| ```pkill -9 [pname]``` | pkill -9 node | force kill process by name
+| ```kill -9 <pid>``` | kill -9 10000 | force kill process by id
+| ```pkill -9 <pname>``` | pkill -9 node | force kill process by name
 
 ## Node Version Manager (NVM) ##
 ```
@@ -34,10 +34,10 @@ sudo apt-get install git-all
 ```
 ```
 git version
-````
+```
 
 ## Nginx ##
- Git on Ubuntu. See guide [Nginx Installation](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source)
+Nginx on Ubuntu. See guide [Nginx Installation](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source)
 ```
 sudo apt-get update
 ```

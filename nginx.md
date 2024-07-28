@@ -10,8 +10,8 @@ sudo nginx -v
 ## Sample Config File and Commands##
 sample naming convention
 ```
-[app-name-api].conf
-[app-name-ws].conf
+<app-name-api>.conf
+<app-name-ws>.conf
 ```
 Common Commands
 ```

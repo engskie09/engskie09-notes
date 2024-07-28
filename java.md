@@ -5,8 +5,8 @@ install [scoop](https://scoop.sh), see guide for [Windows installation](https://
 
 ```
 scoop bucket add java
-scoop install [java-package]
-scoop reset [java-package]
+scoop install <java-package>
+scoop reset <java-package>
 ```
 ```
 scoop bucket add java
@@ -16,7 +16,6 @@ scoop reset openjdk21
 
 ## Gradle ##
 running Spring Boot app
-
 
 ```
 gradle build
