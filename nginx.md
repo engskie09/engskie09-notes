@@ -1,12 +1,19 @@
-# NGINX #
+# Nginx #
+
+## Installation ##
+```
 sudo apt-get update
 sudo apt-get install nginx
 sudo nginx -v
-## Installation ##
+```
 
-## Sample Config File and Commans##
+## Sample Config File and Commands##
+sample naming convention
+```
 [app-name-api].conf
 [app-name-ws].conf
+```
+Common Commands
 ```
 sudo systemctl status nginx
 sudo systemctl stop nginx
