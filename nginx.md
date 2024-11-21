@@ -22,18 +22,20 @@ sudo systemctl reload nginx
 ```
 
 ```
-upstream app_name_upstream {
-    server 127.0.0.1:1000;
+upstream app_name_upstream { # app_name or name of project
+    server 127.0.0.1:1000; # local ip & port of APP inside of virtual machine
     keepalive 64;
 }
 
 server {
     listen 1000 ssl;
 
-    server_name 127.0.0.1;
+    server_name 192.0.2.1; # public ip (URL)
 
     ssl_certificate_key /path/to/MyKey.key;
     ssl_certificate     /path/to/MyCertificate.crt;
+
+    client_max_body_size 100M; # use for APIs and backends, remove if static HTML
 
     add_header 'Content-Security-Policy' 'upgrade-insecure-requests';
    
