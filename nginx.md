@@ -48,7 +48,7 @@ server {
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "upgrade";
         
-        proxy_pass http://app_name_upstream/;
+        proxy_pass http://app_name_upstream;
         proxy_redirect off;
         proxy_read_timeout 240s;
     }
