@@ -13,6 +13,12 @@ sample naming convention
 <app-name-api>.conf
 <app-name-ws>.conf
 ```
+with environment
+```
+<app-name-api-dev>.conf
+<app-name-api-stage>.conf
+<app-name-api-prod>.conf
+```
 Common Commands
 ```
 sudo systemctl status nginx
@@ -22,7 +28,7 @@ sudo systemctl reload nginx
 ```
 
 ```
-upstream app_name_upstream { # app_name or name of project
+upstream app_name_api_dev_upstream { # app_name or name of project
     server 127.0.0.1:1000; # local ip & port of APP inside of virtual machine
     keepalive 64;
 }
@@ -48,7 +54,7 @@ server {
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "upgrade";
         
-        proxy_pass http://app_name_upstream;
+        proxy_pass http://app_name_api_dev_upstream;
         proxy_redirect off;
         proxy_read_timeout 240s;
     }
