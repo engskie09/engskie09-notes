@@ -53,3 +53,35 @@ IdentitiesOnly yes
 ```
 chmod 600 ~/.ssh/VMachineOrdering-ABC12-ordering-core-api
 ```
+
+---
+
+## 4. Test SSH Connection
+
+```
+ssh -T git@github.com
+```
+
+- You should see a welcome/auth message from GitHub.
+
+---
+
+## 5. Clone the Repo
+
+**Use the config alias to clone:**
+```
+git clone git@ordering-core-api:[user_or_org]/ordering-core-api.git
+```
+
+- Replace `[user_or_org]` with your GitHub username or org.
+
+---
+
+## 6. Common Git Commands
+
+```
+git pull
+git status
+git checkout <branch>
+git fetch --all
+```
