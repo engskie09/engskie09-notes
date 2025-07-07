@@ -85,3 +85,10 @@ git status
 git checkout <branch>
 git fetch --all
 ```
+
+---
+
+## Notes
+
+- Repeat steps for each VM or repo as needed (use unique `[random5chars]`).
+- You can add more `Host` blocks in `~/.ssh/config` for multiple repos/VMs.
