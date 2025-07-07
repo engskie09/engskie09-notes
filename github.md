@@ -42,7 +42,7 @@ sudo vim ~/.ssh/config
 
 **Add:**
 ```
-Host ordering-core-api
+Host VMachineOrdering-ABC12-ordering-core-api
   HostName github.com
   User git
   IdentityFile ~/.ssh/VMachineOrdering-ABC12-ordering-core-api
