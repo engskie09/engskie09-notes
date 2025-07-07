@@ -11,3 +11,8 @@
 ```
 ssh-keygen -t ed25519 -C "[vm_name]-[random5chars]-[repo_name]" -f ~/.ssh/[vm_name]-[random5chars]-[repo_name]
 ```
+
+**Example:**
+```
+ssh-keygen -t ed25519 -C "VMachineOrdering-ABC12-ordering-core-api" -f ~/.ssh/VMachineOrdering-ABC12-ordering-core-api
+```
