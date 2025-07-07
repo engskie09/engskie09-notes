@@ -43,10 +43,10 @@ sudo vim ~/.ssh/config
 **Add:**
 ```
 Host ordering-core-api
-HostName github.com
-User git
-IdentityFile ~/.ssh/VMachineOrdering-ABC12-ordering-core-api
-IdentitiesOnly yes
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/VMachineOrdering-ABC12-ordering-core-api
+  IdentitiesOnly yes
 ```
 
 **Set permissions:**
