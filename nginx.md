@@ -7,7 +7,7 @@ sudo apt-get install nginx
 sudo nginx -v
 ```
 
-## Sample Config File and Commands##
+## Sample Config File and Commands  ##
 sample naming convention
 ```
 <app-name-api>.conf
@@ -27,6 +27,20 @@ sudo systemctl start nginx
 sudo systemctl reload nginx
 ```
 
+## SSL Setup ##
+```
+sudo mkdir -p /etc/nginx/ssl
+cd /etc/nginx/ssl
+```
+
+```
+sudo openssl req -x509 -nodes -days 365 \
+  -newkey rsa:2048 \
+  -keyout app-name-api-dev.key \
+  -out app-name-api-dev.crt \
+  -subj "/CN=app-name-api-dev"
+```
+
 ```
 upstream app_name_api_dev_upstream { # app_name or name of project
     server 127.0.0.1:1000; # local ip & port of APP inside of virtual machine
@@ -38,8 +52,8 @@ server {
 
     server_name 192.0.2.1; # public ip (URL)
 
-    ssl_certificate_key /path/to/MyKey.key;
-    ssl_certificate     /path/to/MyCertificate.crt;
+    ssl_certificate_key /path/to/app-name-api-dev.key;
+    ssl_certificate     /path/to/app-name-api-dev.crt;
 
     client_max_body_size 100M; # use for APIs and backends, remove if static HTML
 
