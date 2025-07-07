@@ -19,7 +19,7 @@ ssh-keygen -t ed25519 -C "VMachineOrdering-ABC12-ordering-core-api" -f ~/.ssh/VM
 
 ---
 
-## 2. Add Public Key to GitHub Repository
+## 2. Add Public Key to GitHub
 
 **Print the public key:**
 ```
@@ -31,3 +31,25 @@ cat ~/.ssh/VMachineOrdering-ABC12-ordering-core-api.pub
 - Paste the key  
 - **Title example:** `VMachineOrdering-ABC12-ordering-core-api`
 
+---
+
+## 3. SSH Config
+
+**Edit your SSH config file:**
+```
+sudo vim ~/.ssh/config
+```
+
+**Add:**
+```
+Host ordering-core-api
+HostName github.com
+User git
+IdentityFile ~/.ssh/VMachineOrdering-ABC12-ordering-core-api
+IdentitiesOnly yes
+```
+
+**Set permissions:**
+```
+chmod 600 ~/.ssh/VMachineOrdering-ABC12-ordering-core-api
+```
