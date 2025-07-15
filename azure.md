@@ -68,3 +68,26 @@ Shared resources:
 Virtual Network: project-name-staging-vnet
 Subnet: project-name-staging-subnet
 Diagnostics Storage (optional): project-name-staging-diag
+
+Resource Group: project-name-prod
+
+Virtual Machine Setup: 1
+Virtual Machine: project-name-h5t9k
+Network Interface: project-name-h5t9k-nic
+Public IP: project-name-h5t9k-ip
+Network Security Group: project-name-h5t9k-nsg
+OS Disk: project-name-h5t9k-osdisk
+Data Disk (optional): project-name-h5t9k-datadisk-01
+
+Virtual Machine Setup: 2
+Virtual Machine: project-name-j2q3v
+Network Interface: project-name-j2q3v-nic
+Public IP: project-name-j2q3v-ip
+Network Security Group: project-name-j2q3v-nsg
+OS Disk: project-name-j2q3v-osdisk
+Data Disk (optional): project-name-j2q3v-datadisk-01
+
+Shared resources:
+Virtual Network: project-name-prod-vnet
+Subnet: project-name-prod-subnet
+Diagnostics Storage (optional): project-name-prod-diag
