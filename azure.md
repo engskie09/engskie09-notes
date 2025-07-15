@@ -45,3 +45,26 @@ Shared resources:
 Virtual Network: project-name-test-vnet
 Subnet: project-name-test-subnet
 Diagnostics Storage (optional): project-name-test-diag
+
+Resource Group: project-name-staging
+
+Virtual Machine Setup: 1
+Virtual Machine: project-name-x8z7p
+Network Interface: project-name-x8z7p-nic
+Public IP: project-name-x8z7p-ip
+Network Security Group: project-name-x8z7p-nsg
+OS Disk: project-name-x8z7p-osdisk
+Data Disk (optional): project-name-x8z7p-datadisk-01
+
+Virtual Machine Setup: 2
+Virtual Machine: project-name-4us2m
+Network Interface: project-name-4us2m-nic
+Public IP: project-name-4us2m-ip
+Network Security Group: project-name-4us2m-nsg
+OS Disk: project-name-4us2m-osdisk
+Data Disk (optional): project-name-4us2m-datadisk-01
+
+Shared resources:
+Virtual Network: project-name-staging-vnet
+Subnet: project-name-staging-subnet
+Diagnostics Storage (optional): project-name-staging-diag
