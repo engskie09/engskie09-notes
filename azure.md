@@ -1,4 +1,4 @@
-# Azure Resource Group Inventory
+# Azure Resources & Generated fields naming convention
 
 ## Resource Group: `<project-name>`-dev
 
