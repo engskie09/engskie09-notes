@@ -2,9 +2,9 @@
 
 ## 1. SSH Key Generation & Naming Convention ##
 
-- **[vm_name-random5chars]**: Name of your VM, e.g. `VMachineOrdering-ABC12`
+- **[vm_name-random5chars]**: Name of your VM, e.g. `vmachineordering-abc12`
 - **[repo_name]**: GitHub repo name, e.g. `ordering-core-api`
-- **Example:** `VMachineOrdering-ABC12-ordering-core-api`
+- **Example:** `vmachineordering-abc12-ordering-core-api`
 
 **Generate SSH key:**
 ```
@@ -13,7 +13,7 @@ ssh-keygen -t ed25519 -C "[vm_name]-[random5chars]-[repo_name]" -f ~/.ssh/[vm_na
 
 **Example:**
 ```
-ssh-keygen -t ed25519 -C "VMachineOrdering-ABC12-ordering-core-api" -f ~/.ssh/VMachineOrdering-ABC12-ordering-core-api
+ssh-keygen -t ed25519 -C "vmachineordering-abc12-ordering-core-api" -f ~/.ssh/vmachineordering-abc12-ordering-core-api
 ```
 
 ---
@@ -22,13 +22,13 @@ ssh-keygen -t ed25519 -C "VMachineOrdering-ABC12-ordering-core-api" -f ~/.ssh/VM
 
 **Print the public key:**
 ```
-cat ~/.ssh/VMachineOrdering-ABC12-ordering-core-api.pub
+cat ~/.ssh/vmachineordering-abc12-ordering-core-api.pub
 ```
 
 - Copy the output (starts with `ssh-ed25519 ...`)
 - Go to **GitHub Repository > Settings > Deploy keys > Add Deploy key**
 - Paste the key  
-- **Title example:** `VMachineOrdering-ABC12-ordering-core-api`
+- **Title example:** `vmachineordering-abc12-ordering-core-api`
 
 ---
 
@@ -41,16 +41,16 @@ sudo vim ~/.ssh/config
 
 **Add:**
 ```
-Host VMachineOrdering-ABC12-ordering-core-api
+Host vmachineordering-abc12-ordering-core-api
   HostName github.com
   User git
-  IdentityFile ~/.ssh/VMachineOrdering-ABC12-ordering-core-api
+  IdentityFile ~/.ssh/vmachineordering-abc12-ordering-core-api
   IdentitiesOnly yes
 ```
 
 **Set permissions:**
 ```
-chmod 600 ~/.ssh/VMachineOrdering-ABC12-ordering-core-api
+chmod 600 ~/.ssh/vmachineordering-abc12-ordering-core-api
 ```
 
 ---
@@ -58,7 +58,7 @@ chmod 600 ~/.ssh/VMachineOrdering-ABC12-ordering-core-api
 ## 4. Test SSH Connection
 
 ```
-ssh -T git@VMachineOrdering-ABC12-ordering-core-api
+ssh -T git@vmachineordering-abc12-ordering-core-api
 ```
 
 - You should see a welcome/auth message from GitHub.
@@ -69,7 +69,7 @@ ssh -T git@VMachineOrdering-ABC12-ordering-core-api
 
 **Use the config alias to clone:**
 ```
-git clone git@VMachineOrdering-ABC12-ordering-core-api:[user_or_org]/ordering-core-api.git
+git clone git@vmachineordering-abc12-ordering-core-api:[user_or_org]/ordering-core-api.git
 ```
 
 - Replace `[user_or_org]` with your GitHub username or org.
