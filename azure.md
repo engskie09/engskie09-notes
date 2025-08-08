@@ -24,6 +24,10 @@
 - **Virtual Network:** `<project-name>`-dev-vnet
 - **Subnet:** `<project-name>`-dev-subnet
 - **Diagnostics Storage (optional):** `<project-name>`-dev-diag
+- **Application Gateway Name:** `<project-name>`-dev-appgw
+- **Application Gateway Public IP:** `<project-name>`-dev-appgw-ip
+- **Application Gateway Subnet:** `<project-name>`-dev-appgw-subnet
+- **Application Gateway Backend Pool:** `<project-name>`-dev-appgw-backendpool
 
 ---
 
@@ -51,6 +55,10 @@
 - **Virtual Network:** `<project-name>`-test-vnet
 - **Subnet:** `<project-name>`-test-subnet
 - **Diagnostics Storage (optional):** `<project-name>`-test-diag
+- **Application Gateway Name:** `<project-name>`-test-appgw
+- **Application Gateway Public IP:** `<project-name>`-test-appgw-ip
+- **Application Gateway Subnet:** `<project-name>`-test-appgw-subnet
+- **Application Gateway Backend Pool:** `<project-name>`-test-appgw-backendpool
 
 ---
 
@@ -78,6 +86,10 @@
 - **Virtual Network:** `<project-name>`-staging-vnet
 - **Subnet:** `<project-name>`-staging-subnet
 - **Diagnostics Storage (optional):** `<project-name>`-staging-diag
+- **Application Gateway Name:** `<project-name>`-staging-appgw
+- **Application Gateway Public IP:** `<project-name>`-staging-appgw-ip
+- **Application Gateway Subnet:** `<project-name>`-staging-appgw-subnet
+- **Application Gateway Backend Pool:** `<project-name>`-staging-appgw-backendpool
 
 ---
 
@@ -105,3 +117,7 @@
 - **Virtual Network:** `<project-name>`-prod-vnet
 - **Subnet:** `<project-name>`-prod-subnet
 - **Diagnostics Storage (optional):** `<project-name>`-prod-diag
+- **Application Gateway Name:** `<project-name>`-prod-appgw
+- **Application Gateway Public IP:** `<project-name>`-prod-appgw-ip
+- **Application Gateway Subnet:** `<project-name>`-prod-appgw-subnet
+- **Application Gateway Backend Pool:** `<project-name>`-prod-appgw-backendpool
