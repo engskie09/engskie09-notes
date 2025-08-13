@@ -52,8 +52,8 @@ server {
 
     server_name 192.0.2.1; # public ip (URL)
 
-    ssl_certificate_key /path/to/app-name-api-dev.key;
     ssl_certificate     /path/to/app-name-api-dev.crt;
+    ssl_certificate_key /path/to/app-name-api-dev.key;
 
     client_max_body_size 100M; # use for APIs and backends, remove if static HTML
 
