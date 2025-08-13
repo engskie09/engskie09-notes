@@ -48,7 +48,7 @@ upstream app_name_api_dev_upstream { # app_name or name of project
 }
 
 server {
-    listen 1000 ssl;
+    listen 443 ssl http2;
 
     server_name 192.0.2.1; # public ip (URL)
 
