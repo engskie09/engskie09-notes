@@ -1,4 +1,4 @@
-# Azure Resources & Generated Fields Naming Convention
+# Azure Resources & Generated fields naming convention
 
 ## Resource Group: `<project-name>`-dev
 
@@ -31,7 +31,6 @@
 - **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-dev-appgw-rule-http80
 - **Application Gateway Listener (HTTP 80):** `<project-name>`-dev-appgw-listener-http80
 - **Application Gateway Backend Settings (HTTP 80):** `<project-name>`-dev-appgw-besetting-http80
-- **Application Gateway Health Probe:** `<project-name>`-dev-appgw-healthprobe-http80`
 
 ---
 
@@ -66,7 +65,6 @@
 - **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-test-appgw-rule-http80
 - **Application Gateway Listener (HTTP 80):** `<project-name>`-test-appgw-listener-http80
 - **Application Gateway Backend Settings (HTTP 80):** `<project-name>`-test-appgw-besetting-http80
-- **Application Gateway Health Probe:** `<project-name>`-test-appgw-healthprobe-http80`
 
 ---
 
@@ -101,7 +99,6 @@
 - **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-staging-appgw-rule-http80
 - **Application Gateway Listener (HTTP 80):** `<project-name>`-staging-appgw-listener-http80
 - **Application Gateway Backend Settings (HTTP 80):** `<project-name>`-staging-appgw-besetting-http80
-- **Application Gateway Health Probe:** `<project-name>`-staging-appgw-healthprobe-http80`
 
 ---
 
@@ -136,4 +133,3 @@
 - **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-prod-appgw-rule-http80
 - **Application Gateway Listener (HTTP 80):** `<project-name>`-prod-appgw-listener-http80
 - **Application Gateway Backend Settings (HTTP 80):** `<project-name>`-prod-appgw-besetting-http80
-- **Application Gateway Health Probe:** `<project-name>`-prod-appgw-healthprobe-http80`
