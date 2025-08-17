@@ -27,8 +27,8 @@
 - **Application Gateway Name:** `<project-name>`-dev-appgw
 - **Application Gateway Public IP:** `<project-name>`-dev-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-dev-appgw-subnet
-- **Application Gateway Listener (HTTP 80):** `<project-name>`-dev-appgw-listener-http80`
-- **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-dev-appgw-rule-http80`
+- **Application Gateway Listener (HTTP 80):** `<project-name>`-dev-appgw-listener-http80-<host-name>`
+- **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-dev-appgw-rule-http80-<host-name>`
 - **Application Gateway Backend Settings (HTTP 80):** `<project-name>`-dev-appgw-besetting-http80-<host-name>`
 - **Application Gateway Backend Pool:** `<project-name>`-dev-appgw-backendpool`
 
@@ -61,8 +61,8 @@
 - **Application Gateway Name:** `<project-name>`-test-appgw
 - **Application Gateway Public IP:** `<project-name>`-test-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-test-appgw-subnet
-- **Application Gateway Listener (HTTP 80):** `<project-name>`-test-appgw-listener-http80`
-- **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-test-appgw-rule-http80`
+- **Application Gateway Listener (HTTP 80):** `<project-name>`-test-appgw-listener-http80-<host-name>`
+- **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-test-appgw-rule-http80-<host-name>`
 - **Application Gateway Backend Settings (HTTP 80):** `<project-name>`-test-appgw-besetting-http80-<host-name>`
 - **Application Gateway Backend Pool:** `<project-name>`-test-appgw-backendpool`
 
@@ -95,8 +95,8 @@
 - **Application Gateway Name:** `<project-name>`-staging-appgw
 - **Application Gateway Public IP:** `<project-name>`-staging-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-staging-appgw-subnet
-- **Application Gateway Listener (HTTP 80):** `<project-name>`-staging-appgw-listener-http80`
-- **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-staging-appgw-rule-http80`
+- **Application Gateway Listener (HTTP 80):** `<project-name>`-staging-appgw-listener-http80-<host-name>`
+- **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-staging-appgw-rule-http80-<host-name>`
 - **Application Gateway Backend Settings (HTTP 80):** `<project-name>`-staging-appgw-besetting-http80-<host-name>`
 - **Application Gateway Backend Pool:** `<project-name>`-staging-appgw-backendpool`
 
@@ -129,7 +129,7 @@
 - **Application Gateway Name:** `<project-name>`-prod-appgw
 - **Application Gateway Public IP:** `<project-name>`-prod-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-prod-appgw-subnet
-- **Application Gateway Listener (HTTP 80):** `<project-name>`-prod-appgw-listener-http80`
-- **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-prod-appgw-rule-http80`
+- **Application Gateway Listener (HTTP 80):** `<project-name>`-prod-appgw-listener-http80-<host-name>`
+- **Application Gateway Routing Rule (HTTP 80):** `<project-name>`-prod-appgw-rule-http80-<host-name>`
 - **Application Gateway Backend Settings (HTTP 80):** `<project-name>`-prod-appgw-besetting-http80-<host-name>`
 - **Application Gateway Backend Pool:** `<project-name>`-prod-appgw-backendpool`
