@@ -28,6 +28,7 @@
 - **Application Gateway Public IP:** `<project-name>`-dev-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-dev-appgw-subnet
 - **Storage Account:** `<projectname>devst`
+- **SendGrid SaaS Resource:** `<project-name>`-dev-sendgrid
 
 #### Application Gateway Backend Pool
 - `<project-name>`-dev-appgw-backendpool`
@@ -74,6 +75,7 @@
 - **Application Gateway Public IP:** `<project-name>`-test-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-test-appgw-subnet
 - **Storage Account:** `<projectname>testst`
+- **SendGrid SaaS Resource:** `<project-name>`-test-sendgrid
 
 #### Application Gateway Backend Pool
 - `<project-name>`-test-appgw-backendpool`
@@ -120,6 +122,7 @@
 - **Application Gateway Public IP:** `<project-name>`-staging-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-staging-appgw-subnet
 - **Storage Account:** `<projectname>stagingst`
+- **SendGrid SaaS Resource:** `<project-name>`-staging-sendgrid
 
 #### Application Gateway Backend Pool
 - `<project-name>`-staging-appgw-backendpool`
@@ -166,6 +169,7 @@
 - **Application Gateway Public IP:** `<project-name>`-prod-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-prod-appgw-subnet
 - **Storage Account:** `<projectname>prodst`
+- **SendGrid SaaS Resource:** `<project-name>`-prod-sendgrid
 
 #### Application Gateway Backend Pool
 - `<project-name>`-prod-appgw-backendpool`
