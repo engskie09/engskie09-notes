@@ -35,15 +35,15 @@
 
 #### Application Gateway Backend Settings
 - host-name-besetting  
-- Example: `abc.efg.com-besetting`
+- Example: `sub.domain.com-besetting`
 
 #### Application Gateway Listeners
 - host-name-listener  
-- Example: `abc.efg.com-listener`
+- Example: `sub.domain.com-listener`
 
 #### Application Gateway Rules
 - host-name-rule  
-- Example: `abc.efg.com-rule`
+- Example: `sub.domain.com-rule`
 
 ---
 
@@ -82,15 +82,15 @@
 
 #### Application Gateway Backend Settings
 - host-name-besetting  
-- Example: `abc.efg.com-besetting`
+- Example: `sub.domain.com-besetting`
 
 #### Application Gateway Listeners
 - host-name-listener  
-- Example: `abc.efg.com-listener`
+- Example: `sub.domain.com-listener`
 
 #### Application Gateway Rules
 - host-name-rule  
-- Example: `abc.efg.com-rule`
+- Example: `sub.domain.com-rule`
 
 ---
 
@@ -129,15 +129,15 @@
 
 #### Application Gateway Backend Settings
 - host-name-besetting  
-- Example: `abc.efg.com-besetting`
+- Example: `sub.domain.com-besetting`
 
 #### Application Gateway Listeners
 - host-name-listener  
-- Example: `abc.efg.com-listener`
+- Example: `sub.domain.com-listener`
 
 #### Application Gateway Rules
 - host-name-rule  
-- Example: `abc.efg.com-rule`
+- Example: `sub.domain.com-rule`
 
 ---
 
@@ -176,12 +176,12 @@
 
 #### Application Gateway Backend Settings
 - host-name-besetting  
-- Example: `abc.efg.com-besetting`
+- Example: `sub.domain.com-besetting`
 
 #### Application Gateway Listeners
 - host-name-listener  
-- Example: `abc.efg.com-listener`
+- Example: `sub.domain.com-listener`
 
 #### Application Gateway Rules
 - host-name-rule  
-- Example: `abc.efg.com-rule`
+- Example: `sub.domain.com-rule`
