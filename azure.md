@@ -36,10 +36,10 @@
 - **Application Gateway Name:** `<project-name>`-dev-appgw
 - **Application Gateway Public IP:** `<project-name>`-dev-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-dev-appgw-subnet
-- **Storage Account:** `<projectname>`devst
+- **Storage Account:** `<project-name>`devst
 
 #### Application Gateway Backend Pool
-- `<project-name>`-dev-appgw-backendpool`
+- `<project-name>`-dev-appgw-backendpool
 
 #### Application Gateway Backend Settings
 - host-name-besetting  
@@ -82,10 +82,10 @@
 - **Application Gateway Name:** `<project-name>`-test-appgw
 - **Application Gateway Public IP:** `<project-name>`-test-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-test-appgw-subnet
-- **Storage Account:** `<projectname>`testst
+- **Storage Account:** `<project-name>`testst
 
 #### Application Gateway Backend Pool
-- `<project-name>`-test-appgw-backendpool`
+- `<project-name>`-test-appgw-backendpool
 
 #### Application Gateway Backend Settings
 - host-name-besetting  
@@ -128,10 +128,10 @@
 - **Application Gateway Name:** `<project-name>`-staging-appgw
 - **Application Gateway Public IP:** `<project-name>`-staging-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-staging-appgw-subnet
-- **Storage Account:** `<projectname>`stagingst
+- **Storage Account:** `<project-name>`stagingst
 
 #### Application Gateway Backend Pool
-- `<project-name>`-staging-appgw-backendpool`
+- `<project-name>`-staging-appgw-backendpool
 
 #### Application Gateway Backend Settings
 - host-name-besetting  
@@ -174,10 +174,10 @@
 - **Application Gateway Name:** `<project-name>`-prod-appgw
 - **Application Gateway Public IP:** `<project-name>`-prod-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-prod-appgw-subnet
-- **Storage Account:** `<projectname>`prodst
+- **Storage Account:** `<project-name>`prodst
 
 #### Application Gateway Backend Pool
-- `<project-name>`-prod-appgw-backendpool`
+- `<project-name>`-prod-appgw-backendpool
 
 #### Application Gateway Backend Settings
 - host-name-besetting  
