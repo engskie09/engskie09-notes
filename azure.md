@@ -39,8 +39,8 @@
 
 ### Application Gateway
 - **Application Gateway Name:** `<project-name>`-dev-appgw
-- **Application Gateway Public IP:** `<project-name>`-dev-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-dev-appgw-subnet
+- **Application Gateway Public IP:** `<project-name>`-dev-appgw-ip
 
 #### Application Gateway Backend Pool
 - `<project-name>`-dev-appgw-backendpool
@@ -56,6 +56,23 @@
 #### Application Gateway Rules
 - host-name-rule  
 - Example: `sub.domain.com-rule`
+
+### Front Door
+
+- **Front Door Profile (Standard):** `<project-name>`-dev-fd-std  
+- **Front Door Profile (Premium):** `<project-name>`-dev-fd-prem  
+- **Endpoint Name:** `<project-name>`-dev
+
+#### Routes
+- **Route Name:** `api-domain-com-route`  
+  - **Origin Group:** `api-domain-com-origgrp`  
+  - **Origin Host Name (1):** `<project-name>`-ebml3 (VM name)  
+  - **Origin Host Name (2):** `<project-name>`-w9q2a (VM name)  
+
+- **Route Name:** `portal-domain-com-route`  
+  - **Origin Group:** `portal-domain-com-origgrp`  
+  - **Origin Host Name (1):** `<project-name>`-ebml3 (VM name)  
+  - **Origin Host Name (2):** `<project-name>`-w9q2a (VM name)  
 
 ---
 
@@ -87,8 +104,8 @@
 
 ### Application Gateway
 - **Application Gateway Name:** `<project-name>`-test-appgw
-- **Application Gateway Public IP:** `<project-name>`-test-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-test-appgw-subnet
+- **Application Gateway Public IP:** `<project-name>`-test-appgw-ip
 
 #### Application Gateway Backend Pool
 - `<project-name>`-test-appgw-backendpool
@@ -104,6 +121,23 @@
 #### Application Gateway Rules
 - host-name-rule  
 - Example: `sub.domain.com-rule`
+
+### Front Door
+
+- **Front Door Profile (Standard):** `<project-name>`-test-fd-std  
+- **Front Door Profile (Premium):** `<project-name>`-test-fd-prem  
+- **Endpoint Name:** `<project-name>`-test
+
+#### Routes
+- **Route Name:** `api-domain-com-route`  
+  - **Origin Group:** `api-domain-com-origgrp`  
+  - **Origin Host Name (1):** `<project-name>`-t3y6n (VM name)  
+  - **Origin Host Name (2):** `<project-name>`-c8p2x (VM name)  
+
+- **Route Name:** `portal-domain-com-route`  
+  - **Origin Group:** `portal-domain-com-origgrp`  
+  - **Origin Host Name (1):** `<project-name>`-t3y6n (VM name)  
+  - **Origin Host Name (2):** `<project-name>`-c8p2x (VM name)  
 
 ---
 
@@ -135,8 +169,8 @@
 
 ### Application Gateway
 - **Application Gateway Name:** `<project-name>`-staging-appgw
-- **Application Gateway Public IP:** `<project-name>`-staging-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-staging-appgw-subnet
+- **Application Gateway Public IP:** `<project-name>`-staging-appgw-ip
 
 #### Application Gateway Backend Pool
 - `<project-name>`-staging-appgw-backendpool
@@ -152,6 +186,23 @@
 #### Application Gateway Rules
 - host-name-rule  
 - Example: `sub.domain.com-rule`
+
+### Front Door
+
+- **Front Door Profile (Standard):** `<project-name>`-staging-fd-std  
+- **Front Door Profile (Premium):** `<project-name>`-staging-fd-prem  
+- **Endpoint Name:** `<project-name>`-staging
+
+#### Routes
+- **Route Name:** `api-domain-com-route`  
+  - **Origin Group:** `api-domain-com-origgrp`  
+  - **Origin Host Name (1):** `<project-name>`-x8z7p (VM name)  
+  - **Origin Host Name (2):** `<project-name>`-4us2m (VM name)  
+
+- **Route Name:** `portal-domain-com-route`  
+  - **Origin Group:** `portal-domain-com-origgrp`  
+  - **Origin Host Name (1):** `<project-name>`-x8z7p (VM name)  
+  - **Origin Host Name (2):** `<project-name>`-4us2m (VM name)  
 
 ---
 
@@ -183,8 +234,8 @@
 
 ### Application Gateway
 - **Application Gateway Name:** `<project-name>`-prod-appgw
-- **Application Gateway Public IP:** `<project-name>`-prod-appgw-ip
 - **Application Gateway Subnet:** `<project-name>`-prod-appgw-subnet
+- **Application Gateway Public IP:** `<project-name>`-prod-appgw-ip
 
 #### Application Gateway Backend Pool
 - `<project-name>`-prod-appgw-backendpool
@@ -200,3 +251,20 @@
 #### Application Gateway Rules
 - host-name-rule  
 - Example: `sub.domain.com-rule`
+
+### Front Door
+
+- **Front Door Profile (Standard):** `<project-name>`-prod-fd-std  
+- **Front Door Profile (Premium):** `<project-name>`-prod-fd-prem  
+- **Endpoint Name:** `<project-name>`-prod
+
+#### Routes
+- **Route Name:** `api-domain-com-route`  
+  - **Origin Group:** `api-domain-com-origgrp`  
+  - **Origin Host Name (1):** `<project-name>`-h5t9k (VM name)  
+  - **Origin Host Name (2):** `<project-name>`-j2q3v (VM name)  
+
+- **Route Name:** `portal-domain-com-route`  
+  - **Origin Group:** `portal-domain-com-origgrp`  
+  - **Origin Host Name (1):** `<project-name>`-h5t9k (VM name)  
+  - **Origin Host Name (2):** `<project-name>`-j2q3v (VM name)  
