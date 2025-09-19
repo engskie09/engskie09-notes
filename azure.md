@@ -46,15 +46,15 @@
 - `<project-name>`-dev-appgw-backendpool
 
 #### Application Gateway Backend Settings
-- host-name-besetting  
+- host.name-besetting  
 - Example: `sub.domain.com-besetting`
 
 #### Application Gateway Listeners
-- host-name-listener  
+- host.name-listener  
 - Example: `sub.domain.com-listener`
 
 #### Application Gateway Rules
-- host-name-rule  
+- host.name-rule  
 - Example: `sub.domain.com-rule`
 
 ### Front Door
@@ -111,15 +111,15 @@
 - `<project-name>`-test-appgw-backendpool
 
 #### Application Gateway Backend Settings
-- host-name-besetting  
+- host.name-besetting  
 - Example: `sub.domain.com-besetting`
 
 #### Application Gateway Listeners
-- host-name-listener  
+- host.name-listener  
 - Example: `sub.domain.com-listener`
 
 #### Application Gateway Rules
-- host-name-rule  
+- host.name-rule  
 - Example: `sub.domain.com-rule`
 
 ### Front Door
@@ -176,15 +176,15 @@
 - `<project-name>`-staging-appgw-backendpool
 
 #### Application Gateway Backend Settings
-- host-name-besetting  
+- host.name-besetting  
 - Example: `sub.domain.com-besetting`
 
 #### Application Gateway Listeners
-- host-name-listener  
+- host.name-listener  
 - Example: `sub.domain.com-listener`
 
 #### Application Gateway Rules
-- host-name-rule  
+- host.name-rule  
 - Example: `sub.domain.com-rule`
 
 ### Front Door
@@ -241,15 +241,15 @@
 - `<project-name>`-prod-appgw-backendpool
 
 #### Application Gateway Backend Settings
-- host-name-besetting  
+- host.name-besetting  
 - Example: `sub.domain.com-besetting`
 
 #### Application Gateway Listeners
-- host-name-listener  
+- host.name-listener  
 - Example: `sub.domain.com-listener`
 
 #### Application Gateway Rules
-- host-name-rule  
+- host.name-rule  
 - Example: `sub.domain.com-rule`
 
 ### Front Door
