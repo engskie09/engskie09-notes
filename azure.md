@@ -1,6 +1,6 @@
 # Azure Resources & Generated fields naming convention
 
-## Resource Group: `<project-name>`-dev
+- Project Name: `<project-name>`
 
 ### Global
 
@@ -10,6 +10,8 @@
   `<project-name>`-kv-std  
 - **Key Vault (Premium)**  
   `<project-name>`-kv-prem  
+
+## Resource Group: `<project-name>`-dev
 
 ### Virtual Machine Setup: 1
 - **Virtual Machine:** `<project-name>`-ebml3
