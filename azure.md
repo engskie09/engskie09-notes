@@ -56,8 +56,7 @@
 - Listener type: Multi site & Single & `sub.domain.com-listener`
 
 #### Application Gateway Rules
-- host.name-rule  
-- Example: `sub.domain.com-rule`
+- Rule name: `sub.domain.com-rule`
 
 ### Front Door
 
@@ -123,8 +122,7 @@
 - Listener type: Multi site & Single & `sub.domain.com-listener`
 
 #### Application Gateway Rules
-- host.name-rule  
-- Example: `sub.domain.com-rule`
+- Rule name: `sub.domain.com-rule`
 
 ### Front Door
 
@@ -190,8 +188,7 @@
 - Listener type: Multi site & Single & `sub.domain.com-listener`
 
 #### Application Gateway Rules
-- host.name-rule  
-- Example: `sub.domain.com-rule`
+- Rule name: `sub.domain.com-rule`
 
 ### Front Door
 
@@ -257,8 +254,7 @@
 - Listener type: Multi site & Single & `sub.domain.com-listener`
 
 #### Application Gateway Rules
-- host.name-rule  
-- Example: `sub.domain.com-rule`
+- Rule name: `sub.domain.com-rule`
 
 ### Front Door
 
