@@ -52,8 +52,8 @@
 - Override with specific domain name: sub.domain.com
 
 #### Application Gateway Listeners
-- host.name-listener  
-- Example: `sub.domain.com-listener`
+- Listener name: `sub.domain.com-listener`
+- Listener type: Multi site & Single & `sub.domain.com-listener`
 
 #### Application Gateway Rules
 - host.name-rule  
@@ -119,8 +119,8 @@
 - Override with specific domain name: sub.domain.com
 
 #### Application Gateway Listeners
-- host.name-listener  
-- Example: `sub.domain.com-listener`
+- Listener name: `sub.domain.com-listener`
+- Listener type: Multi site & Single & `sub.domain.com-listener`
 
 #### Application Gateway Rules
 - host.name-rule  
@@ -186,8 +186,8 @@
 - Override with specific domain name: sub.domain.com
 
 #### Application Gateway Listeners
-- host.name-listener  
-- Example: `sub.domain.com-listener`
+- Listener name: `sub.domain.com-listener`
+- Listener type: Multi site & Single & `sub.domain.com-listener`
 
 #### Application Gateway Rules
 - host.name-rule  
@@ -253,8 +253,8 @@
 - Override with specific domain name: sub.domain.com
 
 #### Application Gateway Listeners
-- host.name-listener  
-- Example: `sub.domain.com-listener`
+- Listener name: `sub.domain.com-listener`
+- Listener type: Multi site & Single & `sub.domain.com-listener`
 
 #### Application Gateway Rules
 - host.name-rule  
