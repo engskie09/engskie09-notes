@@ -46,8 +46,10 @@
 - `<project-name>`-dev-appgw-backendpool
 
 #### Application Gateway Backend Settings
-- host.name-besetting  
-- Example: `sub.domain.com-besetting`
+- Backend settings name: `sub.domain.com-besetting`
+- HTTPS validation settings: Complete validation & Public CA
+- Override with new host name: Yes
+- Override with specific domain name: sub.domain.com
 
 #### Application Gateway Listeners
 - host.name-listener  
@@ -111,8 +113,10 @@
 - `<project-name>`-test-appgw-backendpool
 
 #### Application Gateway Backend Settings
-- host.name-besetting  
-- Example: `sub.domain.com-besetting`
+- Backend settings name: `sub.domain.com-besetting`
+- HTTPS validation settings: Complete validation & Public CA
+- Override with new host name: Yes
+- Override with specific domain name: sub.domain.com
 
 #### Application Gateway Listeners
 - host.name-listener  
@@ -176,8 +180,10 @@
 - `<project-name>`-staging-appgw-backendpool
 
 #### Application Gateway Backend Settings
-- host.name-besetting  
-- Example: `sub.domain.com-besetting`
+- Backend settings name: `sub.domain.com-besetting`
+- HTTPS validation settings: Complete validation & Public CA
+- Override with new host name: Yes
+- Override with specific domain name: sub.domain.com
 
 #### Application Gateway Listeners
 - host.name-listener  
@@ -241,8 +247,10 @@
 - `<project-name>`-prod-appgw-backendpool
 
 #### Application Gateway Backend Settings
-- host.name-besetting  
-- Example: `sub.domain.com-besetting`
+- Backend settings name: `sub.domain.com-besetting`
+- HTTPS validation settings: Complete validation & Public CA
+- Override with new host name: Yes
+- Override with specific domain name: sub.domain.com
 
 #### Application Gateway Listeners
 - host.name-listener  
