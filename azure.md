@@ -67,11 +67,13 @@
 #### Routes
 - **Route Name:** `api-domain-com-route`  
   - **Origin Group:** `api-domain-com-origgrp`  
+  - **Health probes:** /__health & https & GET & 100  
   - **Origin Host Name (1):** `<project-name>`-ebml3 (VM name)  
   - **Origin Host Name (2):** `<project-name>`-w9q2a (VM name)  
 
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
+  - **Health probes:** /__health & https & GET & 100  
   - **Origin Host Name (1):** `<project-name>`-ebml3 (VM name)  
   - **Origin Host Name (2):** `<project-name>`-w9q2a (VM name)  
 
@@ -133,11 +135,13 @@
 #### Routes
 - **Route Name:** `api-domain-com-route`  
   - **Origin Group:** `api-domain-com-origgrp`  
+  - **Health probes:** /__health & https & GET & 100  
   - **Origin Host Name (1):** `<project-name>`-t3y6n (VM name)  
   - **Origin Host Name (2):** `<project-name>`-c8p2x (VM name)  
 
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
+  - **Health probes:** /__health & https & GET & 100  
   - **Origin Host Name (1):** `<project-name>`-t3y6n (VM name)  
   - **Origin Host Name (2):** `<project-name>`-c8p2x (VM name)  
 
@@ -199,11 +203,13 @@
 #### Routes
 - **Route Name:** `api-domain-com-route`  
   - **Origin Group:** `api-domain-com-origgrp`  
+  - **Health probes:** /__health & https & GET & 100  
   - **Origin Host Name (1):** `<project-name>`-x8z7p (VM name)  
   - **Origin Host Name (2):** `<project-name>`-4us2m (VM name)  
 
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
+  - **Health probes:** /__health & https & GET & 100  
   - **Origin Host Name (1):** `<project-name>`-x8z7p (VM name)  
   - **Origin Host Name (2):** `<project-name>`-4us2m (VM name)  
 
@@ -265,10 +271,12 @@
 #### Routes
 - **Route Name:** `api-domain-com-route`  
   - **Origin Group:** `api-domain-com-origgrp`  
+  - **Health probes:** /__health & https & GET & 100  
   - **Origin Host Name (1):** `<project-name>`-h5t9k (VM name)  
   - **Origin Host Name (2):** `<project-name>`-j2q3v (VM name)  
 
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
+  - **Health probes:** /__health & https & GET & 100  
   - **Origin Host Name (1):** `<project-name>`-h5t9k (VM name)  
   - **Origin Host Name (2):** `<project-name>`-j2q3v (VM name)  
