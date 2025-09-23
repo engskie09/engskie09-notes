@@ -72,12 +72,12 @@
     - **Name:** `<project-name>`-ebml3  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-ebml3-ip  
-    - **Origin host header:** api-domain-com  
+    - **Origin host header:** api.domain.com  
   - **Origin (2):** `<project-name>`-w9q2a (VM name)  
     - **Name:** `<project-name>`-w9q2a  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-w9q2a-ip  
-    - **Origin host header:** api-domain-com  
+    - **Origin host header:** api.domain.com  
 
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
@@ -86,12 +86,12 @@
     - **Name:** `<project-name>`-ebml3  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-ebml3-ip  
-    - **Origin host header:** portal-domain-com  
+    - **Origin host header:** portal.domain.com  
   - **Origin (2):** `<project-name>`-w9q2a (VM name)  
     - **Name:** `<project-name>`-w9q2a  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-w9q2a-ip  
-    - **Origin host header:** portal-domain-com  
+    - **Origin host header:** portal.domain.com  
 
 ---
 
@@ -156,12 +156,12 @@
     - **Name:** `<project-name>`-t3y6n  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-t3y6n-ip  
-    - **Origin host header:** api-domain-com  
+    - **Origin host header:** api.domain.com  
   - **Origin (2):** `<project-name>`-c8p2x (VM name)  
     - **Name:** `<project-name>`-c8p2x  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-c8p2x-ip  
-    - **Origin host header:** api-domain-com  
+    - **Origin host header:** api.domain.com  
 
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
@@ -170,12 +170,12 @@
     - **Name:** `<project-name>`-t3y6n  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-t3y6n-ip  
-    - **Origin host header:** portal-domain-com  
+    - **Origin host header:** portal.domain.com  
   - **Origin (2):** `<project-name>`-c8p2x (VM name)  
     - **Name:** `<project-name>`-c8p2x  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-c8p2x-ip  
-    - **Origin host header:** portal-domain-com  
+    - **Origin host header:** portal.domain.com  
 
 ---
 
@@ -240,12 +240,12 @@
     - **Name:** `<project-name>`-x8z7p  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-x8z7p-ip  
-    - **Origin host header:** api-domain-com  
+    - **Origin host header:** api.domain.com  
   - **Origin (2):** `<project-name>`-4us2m (VM name)  
     - **Name:** `<project-name>`-4us2m  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-4us2m-ip  
-    - **Origin host header:** api-domain-com  
+    - **Origin host header:** api.domain.com  
 
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
@@ -254,12 +254,12 @@
     - **Name:** `<project-name>`-x8z7p  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-x8z7p-ip  
-    - **Origin host header:** portal-domain-com  
+    - **Origin host header:** portal.domain.com  
   - **Origin (2):** `<project-name>`-4us2m (VM name)  
     - **Name:** `<project-name>`-4us2m  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-4us2m-ip  
-    - **Origin host header:** portal-domain-com  
+    - **Origin host header:** portal.domain.com  
 
 ---
 
@@ -324,12 +324,12 @@
     - **Name:** `<project-name>`-h5t9k  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-h5t9k-ip  
-    - **Origin host header:** api-domain-com  
+    - **Origin host header:** api.domain.com  
   - **Origin (2):** `<project-name>`-j2q3v (VM name)  
     - **Name:** `<project-name>`-j2q3v  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-j2q3v-ip  
-    - **Origin host header:** api-domain-com  
+    - **Origin host header:** api.domain.com  
 
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
@@ -338,9 +338,9 @@
     - **Name:** `<project-name>`-h5t9k  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-h5t9k-ip  
-    - **Origin host header:** portal-domain-com  
+    - **Origin host header:** portal.domain.com  
   - **Origin (2):** `<project-name>`-j2q3v (VM name)  
     - **Name:** `<project-name>`-j2q3v  
     - **Origin type:** Public IP Address  
     - **Host name:** `<project-name>`-j2q3v-ip  
-    - **Origin host header:** portal-domain-com  
+    - **Origin host header:** portal.domain.com  
