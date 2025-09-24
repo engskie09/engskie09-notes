@@ -81,6 +81,7 @@
 - **Route Name:** `api-domain-com-route`  
   - **Origin Group:** `api-domain-com-origgrp`  
   - **Health probes:** /__health & https & GET & 100  
+  - **Domains:** api.domain.com
   - **Origin (1):** `<project-name>`-ebml3 (VM name)  
     - **Name:** `<project-name>`-ebml3  
     - **Origin type:** Public IP Address  
@@ -95,6 +96,7 @@
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
   - **Health probes:** /__health & https & GET & 100  
+  - **Domains:** portal.domain.com
   - **Origin (1):** `<project-name>`-ebml3 (VM name)  
     - **Name:** `<project-name>`-ebml3  
     - **Origin type:** Public IP Address  
@@ -176,6 +178,7 @@
 - **Route Name:** `api-domain-com-route`  
   - **Origin Group:** `api-domain-com-origgrp`  
   - **Health probes:** /__health & https & GET & 100  
+  - **Domains:** api.domain.com
   - **Origin (1):** `<project-name>`-t3y6n (VM name)  
     - **Name:** `<project-name>`-t3y6n  
     - **Origin type:** Public IP Address  
@@ -190,6 +193,7 @@
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
   - **Health probes:** /__health & https & GET & 100  
+  - **Domains:** portal.domain.com
   - **Origin (1):** `<project-name>`-t3y6n (VM name)  
     - **Name:** `<project-name>`-t3y6n  
     - **Origin type:** Public IP Address  
@@ -271,6 +275,7 @@
 - **Route Name:** `api-domain-com-route`  
   - **Origin Group:** `api-domain-com-origgrp`  
   - **Health probes:** /__health & https & GET & 100  
+  - **Domains:** api.domain.com
   - **Origin (1):** `<project-name>`-x8z7p (VM name)  
     - **Name:** `<project-name>`-x8z7p  
     - **Origin type:** Public IP Address  
@@ -285,6 +290,7 @@
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
   - **Health probes:** /__health & https & GET & 100  
+  - **Domains:** portal.domain.com
   - **Origin (1):** `<project-name>`-x8z7p (VM name)  
     - **Name:** `<project-name>`-x8z7p  
     - **Origin type:** Public IP Address  
@@ -366,6 +372,7 @@
 - **Route Name:** `api-domain-com-route`  
   - **Origin Group:** `api-domain-com-origgrp`  
   - **Health probes:** /__health & https & GET & 100  
+  - **Domains:** api.domain.com
   - **Origin (1):** `<project-name>`-h5t9k (VM name)  
     - **Name:** `<project-name>`-h5t9k  
     - **Origin type:** Public IP Address  
@@ -380,6 +387,7 @@
 - **Route Name:** `portal-domain-com-route`  
   - **Origin Group:** `portal-domain-com-origgrp`  
   - **Health probes:** /__health & https & GET & 100  
+  - **Domains:** portal.domain.com
   - **Origin (1):** `<project-name>`-h5t9k (VM name)  
     - **Name:** `<project-name>`-h5t9k  
     - **Origin type:** Public IP Address  
