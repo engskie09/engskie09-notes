@@ -66,6 +66,15 @@
 ### Front Door manager
 - **Endpoint Name:** `<project-name>`-dev
 
+#### Domains
+- **Domain (1)**
+  - **Custom domain:** api.domain.com
+  - **Certificate type:** Bring Your Own Certificate (BYOC)
+
+- **Domain (2)**
+  - **Custom domain:** portal.domain.com
+  - **Certificate type:** Bring Your Own Certificate (BYOC)
+
 #### Routes
 - **Route Name:** `api-domain-com-route`  
   - **Origin Group:** `api-domain-com-origgrp`  
@@ -151,6 +160,15 @@
 
 ### Front Door manager
 - **Endpoint Name:** `<project-name>`-test
+
+#### Domains
+- **Domain (1)**
+  - **Custom domain:** api.domain.com
+  - **Certificate type:** Bring Your Own Certificate (BYOC)
+
+- **Domain (2)**
+  - **Custom domain:** portal.domain.com
+  - **Certificate type:** Bring Your Own Certificate (BYOC)
 
 #### Routes
 - **Route Name:** `api-domain-com-route`  
@@ -238,6 +256,15 @@
 ### Front Door manager
 - **Endpoint Name:** `<project-name>`-staging
 
+#### Domains
+- **Domain (1)**
+  - **Custom domain:** api.domain.com
+  - **Certificate type:** Bring Your Own Certificate (BYOC)
+
+- **Domain (2)**
+  - **Custom domain:** portal.domain.com
+  - **Certificate type:** Bring Your Own Certificate (BYOC)
+
 #### Routes
 - **Route Name:** `api-domain-com-route`  
   - **Origin Group:** `api-domain-com-origgrp`  
@@ -323,6 +350,15 @@
 
 ### Front Door manager
 - **Endpoint Name:** `<project-name>`-prod
+
+#### Domains
+- **Domain (1)**
+  - **Custom domain:** api.domain.com
+  - **Certificate type:** Bring Your Own Certificate (BYOC)
+
+- **Domain (2)**
+  - **Custom domain:** portal.domain.com
+  - **Certificate type:** Bring Your Own Certificate (BYOC)
 
 #### Routes
 - **Route Name:** `api-domain-com-route`  
