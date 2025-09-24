@@ -62,6 +62,8 @@
 
 - **Front Door Profile (Standard):** `<project-name>`-dev-fd-std  
 - **Front Door Profile (Premium):** `<project-name>`-dev-fd-prem  
+
+### Front Door manager
 - **Endpoint Name:** `<project-name>`-dev
 
 #### Routes
@@ -146,6 +148,8 @@
 
 - **Front Door Profile (Standard):** `<project-name>`-test-fd-std  
 - **Front Door Profile (Premium):** `<project-name>`-test-fd-prem  
+
+### Front Door manager
 - **Endpoint Name:** `<project-name>`-test
 
 #### Routes
@@ -230,6 +234,8 @@
 
 - **Front Door Profile (Standard):** `<project-name>`-staging-fd-std  
 - **Front Door Profile (Premium):** `<project-name>`-staging-fd-prem  
+
+### Front Door manager
 - **Endpoint Name:** `<project-name>`-staging
 
 #### Routes
@@ -314,6 +320,8 @@
 
 - **Front Door Profile (Standard):** `<project-name>`-prod-fd-std  
 - **Front Door Profile (Premium):** `<project-name>`-prod-fd-prem  
+
+### Front Door manager
 - **Endpoint Name:** `<project-name>`-prod
 
 #### Routes
