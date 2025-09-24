@@ -11,6 +11,8 @@
 - **Key Vault (Premium)**  
   `<project-name>`-kv-prem  
 
+---
+
 ## Resource Group: `<project-name>`-dev
 
 ### Virtual Machine Setup: 1
@@ -63,10 +65,7 @@
 - **Front Door Profile (Standard):** `<project-name>`-dev-fd-std  
 - **Front Door Profile (Premium):** `<project-name>`-dev-fd-prem  
 
-### Front Door manager
-- **Endpoint Name:** `<project-name>`-dev
-
-#### Domains
+### Front Door Domains
 - **Domain (1)**
   - **Custom domain:** api.domain.com
   - **Certificate type:** Bring Your Own Certificate (BYOC)
@@ -74,6 +73,9 @@
 - **Domain (2)**
   - **Custom domain:** portal.domain.com
   - **Certificate type:** Bring Your Own Certificate (BYOC)
+
+### Front Door manager
+- **Endpoint Name:** `<project-name>`-dev
 
 #### Routes
 - **Route Name:** `api-domain-com-route`  
@@ -158,10 +160,7 @@
 - **Front Door Profile (Standard):** `<project-name>`-test-fd-std  
 - **Front Door Profile (Premium):** `<project-name>`-test-fd-prem  
 
-### Front Door manager
-- **Endpoint Name:** `<project-name>`-test
-
-#### Domains
+### Front Door Domains
 - **Domain (1)**
   - **Custom domain:** api.domain.com
   - **Certificate type:** Bring Your Own Certificate (BYOC)
@@ -169,6 +168,9 @@
 - **Domain (2)**
   - **Custom domain:** portal.domain.com
   - **Certificate type:** Bring Your Own Certificate (BYOC)
+
+### Front Door manager
+- **Endpoint Name:** `<project-name>`-test
 
 #### Routes
 - **Route Name:** `api-domain-com-route`  
@@ -253,10 +255,7 @@
 - **Front Door Profile (Standard):** `<project-name>`-staging-fd-std  
 - **Front Door Profile (Premium):** `<project-name>`-staging-fd-prem  
 
-### Front Door manager
-- **Endpoint Name:** `<project-name>`-staging
-
-#### Domains
+### Front Door Domains
 - **Domain (1)**
   - **Custom domain:** api.domain.com
   - **Certificate type:** Bring Your Own Certificate (BYOC)
@@ -264,6 +263,9 @@
 - **Domain (2)**
   - **Custom domain:** portal.domain.com
   - **Certificate type:** Bring Your Own Certificate (BYOC)
+
+### Front Door manager
+- **Endpoint Name:** `<project-name>`-staging
 
 #### Routes
 - **Route Name:** `api-domain-com-route`  
@@ -348,10 +350,7 @@
 - **Front Door Profile (Standard):** `<project-name>`-prod-fd-std  
 - **Front Door Profile (Premium):** `<project-name>`-prod-fd-prem  
 
-### Front Door manager
-- **Endpoint Name:** `<project-name>`-prod
-
-#### Domains
+### Front Door Domains
 - **Domain (1)**
   - **Custom domain:** api.domain.com
   - **Certificate type:** Bring Your Own Certificate (BYOC)
@@ -359,6 +358,9 @@
 - **Domain (2)**
   - **Custom domain:** portal.domain.com
   - **Certificate type:** Bring Your Own Certificate (BYOC)
+
+### Front Door manager
+- **Endpoint Name:** `<project-name>`-prod
 
 #### Routes
 - **Route Name:** `api-domain-com-route`  
