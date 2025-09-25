@@ -1,5 +1,6 @@
 # Azure Resources & Generated fields naming convention
 
+- Company Name: `<company-name>`
 - Project Name: `<project-name>`
 
 ### Global
@@ -13,7 +14,7 @@
 
 ---
 
-## Resource Group: `<project-name>`-dev
+## Resource Group: `<company-name>` or `<project-name>`-dev
 
 ### Virtual Machine Setup: 1
 - **Virtual Machine:** `<project-name>`-ebml3
@@ -110,7 +111,7 @@
 
 ---
 
-## Resource Group: `<project-name>`-test
+## Resource Group: `<company-name>` or `<project-name>`-test
 
 ### Virtual Machine Setup: 1
 - **Virtual Machine:** `<project-name>`-t3y6n
@@ -207,7 +208,7 @@
 
 ---
 
-## Resource Group: `<project-name>`-staging
+## Resource Group: `<company-name>` or `<project-name>`-staging
 
 ### Virtual Machine Setup: 1
 - **Virtual Machine:** `<project-name>`-x8z7p
@@ -304,7 +305,7 @@
 
 ---
 
-## Resource Group: `<project-name>`-prod
+## Resource Group: `<company-name>` or `<project-name>`-prod
 
 ### Virtual Machine Setup: 1
 - **Virtual Machine:** `<project-name>`-h5t9k
