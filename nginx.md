@@ -34,6 +34,34 @@ upstream api_domain_com_upstream { # exact domain naming convention
 }
 
 server {
+    listen 80;
+
+    server_name 192.0.2.1;
+    server_name api.domain.com;
+
+    ssl_certificate     /path/to/domain-certificate.crt; # or fullchain.pem
+    ssl_certificate_key /path/to/domain-key.key; # or private-key.pem
+
+    client_max_body_size 100M; # use for APIs and backends, remove if static HTML
+
+    add_header 'Content-Security-Policy' 'upgrade-insecure-requests';
+   
+    location / {
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $http_host;
+        
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        
+        proxy_pass http://api_domain_com_upstream;
+        proxy_redirect off;
+        proxy_read_timeout 240s;
+    }
+}
+
+server {
     listen 443 ssl http2;
 
     server_name 192.0.2.1;
@@ -69,7 +97,7 @@ upstream portal_domain_com_upstream { # exact domain naming convention
 }
 
 server {
-    listen 443 ssl http2;
+    listen 80;
 
     server_name 192.0.2.1;
     server_name portal.domain.com;
@@ -77,7 +105,31 @@ server {
     ssl_certificate     /path/to/domain-certificate.crt; # or fullchain.pem
     ssl_certificate_key /path/to/domain-key.key; # or private-key.pem
 
-    client_max_body_size 100M; # use for APIs and backends, remove if static HTML
+    add_header 'Content-Security-Policy' 'upgrade-insecure-requests';
+   
+    location / {
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $http_host;
+        
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        
+        proxy_pass http://portal_domain_com_upstream;
+        proxy_redirect off;
+        proxy_read_timeout 240s;
+    }
+}
+
+server {
+    listen 443 ssl http2;
+
+    server_name 192.0.2.1;
+    server_name portal.domain.com;
+
+    ssl_certificate     /path/to/domain-certificate.crt; # or fullchain.pem
+    ssl_certificate_key /path/to/domain-key.key; # or private-key.pem
 
     add_header 'Content-Security-Policy' 'upgrade-insecure-requests';
    
