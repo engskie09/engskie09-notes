@@ -39,9 +39,6 @@ server {
     server_name 192.0.2.1;
     server_name api.domain.com;
 
-    ssl_certificate     /path/to/domain-certificate.crt; # or fullchain.pem
-    ssl_certificate_key /path/to/domain-key.key; # or private-key.pem
-
     client_max_body_size 100M; # use for APIs and backends, remove if static HTML
 
     add_header 'Content-Security-Policy' 'upgrade-insecure-requests';
@@ -101,9 +98,6 @@ server {
 
     server_name 192.0.2.1;
     server_name portal.domain.com;
-
-    ssl_certificate     /path/to/domain-certificate.crt; # or fullchain.pem
-    ssl_certificate_key /path/to/domain-key.key; # or private-key.pem
 
     add_header 'Content-Security-Policy' 'upgrade-insecure-requests';
    
